@@ -1,0 +1,49 @@
+.hero h1 {
+    text-align: center;
+}
+
+
+.nav-links a {
+    font-size: 1.2em;
+}
+
+.projects .project {
+    /* max-width: 370px;
+    min-width: 350px; */
+    height: 400px;
+    flex-basis: 370px;
+    background-color: violet;
+}
+
+.intro .role u {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+
+}
+
+.container {
+    display: flex;
+    /* height: 450px; */
+    flex-wrap: wrap;
+}
+
+img:hover {
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0%);
+    /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%);
+    /* FF 35+ */
+}
+
+img {
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%);
+    /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%);
+    /* FF 35+ */
+}
+
+.projects {
+    /* background-color: khaki; */
+    /* height: fit-content; */
+}
