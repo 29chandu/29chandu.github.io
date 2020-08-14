@@ -11,8 +11,7 @@
     /* max-width: 370px;
     min-width: 350px; */
     height: 400px;
-    flex-basis: 370px;
-    background-color: violet;
+    flex-basis: 350px;
 }
 
 .intro .role u {
@@ -23,12 +22,11 @@
 
 .container {
     display: flex;
-    /* height: 450px; */
     flex-wrap: wrap;
 }
 
 img:hover {
-    transition: filter .5s ease-in-out;
+    transition: filter .3s ease-in-out;
     -webkit-filter: grayscale(0%);
     /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(0%);
@@ -36,7 +34,7 @@ img:hover {
 }
 
 img {
-    transition: filter .5s ease-in-out;
+    transition: filter .3s ease-in-out;
     -webkit-filter: grayscale(100%);
     /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(100%);
@@ -44,6 +42,5 @@ img {
 }
 
 .projects {
-    /* background-color: khaki; */
-    /* height: fit-content; */
+    padding-left: 2px;
 }
